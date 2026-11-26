@@ -1,0 +1,5 @@
+{% extends "base.html" %}{% block content %}<h1>Create student profile</h1><form method="post" class="form-narrow">
+<label class="form-label">Name</label><input class="form-control mb-3" name="name" required minlength="2" maxlength="60">
+<label class="form-label">Department</label><input class="form-control mb-3" name="department" required>
+<label class="form-label">Interests or skills to develop (comma separated)</label><input class="form-control mb-3" name="interests" required>
+<label class="form-label">Target industry</label><input class="form-control mb-3" name="target_industry" required><button class="btn btn-primary">Save profile</button></form>{% endblock %}

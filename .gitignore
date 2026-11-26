@@ -221,3 +221,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local demonstration database and secrets
+data/*.db
+data/*.db-*
